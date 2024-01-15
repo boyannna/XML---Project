@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><veterinary_clinic>
+    <staffs>
+        <staff>
+            S001
+            <name_s>Владимир</name_s>
+            <last_name_s>Йорданов</last_name_s>
+            <phone_number_s>0881234567</phone_number_s>
+            <position>Ортопед</position>
+            <salary>5000</salary>
+            <email_s>v.yordanov@gmail.com</email_s>
+        </staff>
+    </staffs>
+    <patients>
+        <patient>
+            YES\
+        MNO0000001
+            <name_p>Кай</name_p>
+            <type>Куче</type>
+            <breed>Хъски</breed>
+            <gender>М</gender>
+            <age>10</age>
+            <weight>30</weight>
+        </patient>
+    </patients>
+</veterinary_clinic>
