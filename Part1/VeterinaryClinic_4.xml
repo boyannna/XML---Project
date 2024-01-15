@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE veterinary_clinic SYSTEM "D:\УНИ\5 - Пети семестър\XML\XML\.idea\Homework 1\VeterinaryClinic.dtd">
+
+<veterinary_clinic>
+    <staffs>
+        <staff id="S004">
+            <name_s>Валя</name_s>
+            <last_name_s>Митова</last_name_s>
+            <phone_number_s>0881234560</phone_number_s>
+            <position>Доктор</position>
+            <salary>3000</salary>
+            <email_s>v.mitova@gmail.com</email_s>
+        </staff>
+    </staffs>
+    <manipulations>
+        <manipulation anesthesia="with">
+            <name_m>Грууминг</name_m>
+            <price>60</price>
+            <duration>60</duration>
+        </manipulation>
+    </manipulations>
+    <patients>
+        <patient no_microchip="MNO0023021"
+                 presence_of_castration="NO">
+            <name_p>Белла</name_p>
+            <type>Котка</type>
+            <breed>Персийска</breed>
+            <gender>Ж</gender>
+            <age>3</age>
+            <weight>6</weight>
+        </patient>
+    </patients>
+    <owners>
+        <owner id="O04821">
+            <name_o>Марио</name_o>
+            <last_name_o>Николов</last_name_o>
+            <phone_number_o>0881234571</phone_number_o>
+            <region>Враца</region>
+            <email_o>m.nikolov@gmail.com</email_o>
+        </owner>
+    </owners>
+</veterinary_clinic>
+
+
+
+

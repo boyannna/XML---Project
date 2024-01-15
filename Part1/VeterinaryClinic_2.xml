@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE veterinary_clinic SYSTEM "D:\УНИ\5 - Пети семестър\XML\XML\.idea\Homework 1\VeterinaryClinic.dtd">
+
+<veterinary_clinic>
+   <staffs>
+       <staff id="S002">
+           <name_s>Ивайло</name_s>
+           <last_name_s>Василев</last_name_s>
+           <phone_number_s>0881234568</phone_number_s>
+           <position>Доктор</position>
+           <salary>4000</salary>
+           <email_s>i.vasilev@gmail.com</email_s>
+       </staff>
+   </staffs>
+    <manipulations>
+        <manipulation anesthesia="without">
+            <name_m>Кръвни тестове</name_m>
+            <price>30</price>
+            <duration>45</duration>
+        </manipulation>
+    </manipulations>
+    <patients>
+        <patient no_microchip="MNO0001102"
+                 presence_of_castration="NO">
+            <name_p>Багира</name_p>
+            <type>Котка</type>
+            <breed>Европейска късокосместа</breed>
+            <gender>Ж</gender>
+            <age>3</age>
+            <weight>4</weight>
+        </patient>
+    </patients>
+    <owners>
+        <owner id="O51345">
+            <name_o>Иван</name_o>
+            <last_name_o>Иванов</last_name_o>
+            <phone_number_o>0881234563</phone_number_o>
+            <region>Враца</region>
+            <email_o>i.ivanoff@gmail.com</email_o>
+        </owner>
+    </owners>
+</veterinary_clinic>
+
+
+
+

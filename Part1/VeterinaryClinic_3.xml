@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE veterinary_clinic SYSTEM "D:\УНИ\5 - Пети семестър\XML\XML\.idea\Homework 1\VeterinaryClinic.dtd">
+
+<veterinary_clinic>
+   <staffs>
+       <staff id="S003">
+           <name_s>Йосиф</name_s>
+           <last_name_s>Еленков</last_name_s>
+           <phone_number_s>0881234569</phone_number_s>
+           <position>Кардиолог</position>
+           <salary>5000</salary>
+           <email_s>j.elenkov@gmail.com</email_s>
+       </staff>
+   </staffs>
+    <manipulations>
+        <manipulation anesthesia="without">
+            <name_m>Електрокардиограма</name_m>
+            <price>45</price>
+            <duration>40</duration>
+        </manipulation>
+    </manipulations>
+    <patients>
+        <patient no_microchip="MNO0000021"
+                 presence_of_castration="YES">
+            <name_p>Рикардо</name_p>
+            <type>Котка</type>
+            <breed>Европейска късокосместа</breed>
+            <gender>М</gender>
+            <age>10</age>
+            <weight>6</weight>
+        </patient>
+    </patients>
+    <owners>
+        <owner id="O00021">
+            <name_o>Иво</name_o>
+            <last_name_o>Марков</last_name_o>
+            <phone_number_o>0881234521</phone_number_o>
+            <region>София</region>
+            <email_o>i.markov@gmail.com</email_o>
+        </owner>
+    </owners>
+</veterinary_clinic>
+
+
+
+

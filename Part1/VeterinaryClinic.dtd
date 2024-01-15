@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT veterinary_clinic (staffs, manipulations, patients, owners)>
+ <!ELEMENT staffs (staff+)>
+   <!ELEMENT staff (name_s, last_name_s, phone_number_s, position, salary, email_s)>
+     <!ATTLIST staff id ID #REQUIRED >
+     <!ELEMENT name_s (#PCDATA)>
+     <!ELEMENT last_name_s (#PCDATA)>
+     <!ELEMENT phone_number_s (#PCDATA)>
+     <!ELEMENT position (#PCDATA)>
+     <!ELEMENT salary (#PCDATA)>
+     <!ELEMENT email_s (#PCDATA)>
+ <!ELEMENT manipulations (manipulation+)>
+   <!ELEMENT manipulation (name_m, price, duration)>
+     <!ATTLIST manipulation anesthesia (with|without) #IMPLIED>
+     <!ELEMENT name_m (#PCDATA)>
+     <!ELEMENT price (#PCDATA)>
+     <!ELEMENT duration (#PCDATA)>
+ <!ELEMENT patients (patient+)>
+   <!ELEMENT patient (name_p, type, breed, gender, age, weight)>
+     <!ATTLIST patient
+          no_microchip ID #REQUIRED
+          presence_of_castration (YES|NO) #IMPLIED>
+     <!ELEMENT name_p (#PCDATA)>
+     <!ELEMENT type (#PCDATA)>
+     <!ELEMENT breed (#PCDATA)>
+     <!ELEMENT gender (#PCDATA)>
+     <!ELEMENT age (#PCDATA)>
+     <!ELEMENT weight (#PCDATA)>
+ <!ELEMENT owners (owner+)>
+   <!ELEMENT owner (name_o, last_name_o, phone_number_o, region, email_o)>
+     <!ATTLIST owner id ID #REQUIRED >
+     <!ELEMENT name_o (#PCDATA)>
+     <!ELEMENT last_name_o (#PCDATA)>
+     <!ELEMENT phone_number_o (#PCDATA)>
+     <!ELEMENT region (#PCDATA)>
+     <!ELEMENT email_o (#PCDATA)>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE veterinary_clinic SYSTEM "D:\УНИ\5 - Пети семестър\XML\XML\.idea\Homework 1\VeterinaryClinic.dtd">
+
+<veterinary_clinic>
+  <staffs>
+    <staff id="S001">
+        <name_s>Владимир</name_s>
+        <last_name_s>Йорданов</last_name_s>
+        <phone_number_s>0881234567</phone_number_s>
+        <position>Ортопед</position>
+        <salary>5000</salary>
+        <email_s>v.yordanov@gmail.com</email_s>
+    </staff>
+  </staffs>
+  <manipulations>
+    <manipulation anesthesia="with">
+        <name_m>Рентгенография</name_m>
+        <price>50</price>
+        <duration>30</duration>
+    </manipulation>
+  </manipulations>
+  <patients>
+    <patient presence_of_castration="YES" no_microchip="MNO0000001">
+        <name_p>Кай</name_p>
+        <type>Куче</type>
+        <breed>Хъски</breed>
+        <gender>М</gender>
+        <age>10</age>
+        <weight>30</weight>
+    </patient>
+  </patients>
+  <owners>
+    <owner id="O00001">
+        <name_o>Боянна-Ди</name_o>
+        <last_name_o>Маринова</last_name_o>
+        <phone_number_o>0881234566</phone_number_o>
+        <region>Козлодуй</region>
+        <email_o>b.marinova@gmail.com</email_o>
+    </owner>
+  </owners>
+</veterinary_clinic>
+
+
+
